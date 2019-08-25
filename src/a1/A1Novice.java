@@ -38,13 +38,11 @@ public class A1Novice {
 			names[j] = nameToPrint;
 			prices[j] = customerSum;
 			
-			
-
 		}
 		
 		// print output
 		for (int i = 0; i < names.length; i++) {
-			System.out.println(names[i] + ": " + prices[i]); 
+			System.out.println(names[i] + ": " + String.format("%.2f", prices[i])); 
 		}
 
 	}
